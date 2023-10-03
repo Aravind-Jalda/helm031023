@@ -10,15 +10,15 @@ userPodMaximumReplicaCount: 1
 
 
 image:
-  repository: ovaledgellc/ovaledge
+  repository: aravindovaledge/qa
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "bhg_r6.0-1"
+  tag: "qlab02_v0.2"
 imageCredentials:
-  name: ovaledge
-  registry: docker.io/ovaledgellc/ovaledge
-  username: ovaledgellc
-  password: 585562e4-172c-4291-898a-2eabaf482969
+  name: aravindovaledge
+  registry: docker.io/aravindovaledge/qa
+  username: aravindovaledge
+  password: 0valEdge!
 dbdetails:
   enabled: true
   #OE: Specify keys for Ovaledge rds mysql property keys
